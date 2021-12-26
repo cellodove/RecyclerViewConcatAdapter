@@ -1,4 +1,6 @@
 package com.peter.recyclerviewconcatadapter.model
 
-class Address {
-}
+data class Address (
+    val addressName:String,
+    val addressNumber:String
+    )

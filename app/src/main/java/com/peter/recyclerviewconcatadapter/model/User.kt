@@ -1,4 +1,7 @@
 package com.peter.recyclerviewconcatadapter.model
 
-class User {
-}
+data class User(
+    val name:String,
+    val image: Int,
+    val age: String
+)

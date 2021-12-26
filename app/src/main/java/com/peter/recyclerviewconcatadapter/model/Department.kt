@@ -1,4 +1,7 @@
 package com.peter.recyclerviewconcatadapter.model
 
-class Department {
-}
+data class Department(
+    val departImage:Int,
+    val departName:String
+
+)
