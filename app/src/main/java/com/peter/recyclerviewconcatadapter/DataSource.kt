@@ -17,12 +17,15 @@ object DataSource {
     }
 
     fun getDepartment() = ArrayList<Department>().apply {
-        add(Department(R.drawable.ic_launcher_background,"기계공학부"))
-        add(Department(R.drawable.ic_launcher_background,"기계공학부"))
-        add(Department(R.drawable.ic_launcher_background,"기계공학부"))
-        add(Department(R.drawable.ic_launcher_background,"기계공학부"))
-        add(Department(R.drawable.ic_launcher_background,"기계공학부"))
-
+        add(Department(R.drawable.machine_icon,"기계공학"))
+        add(Department(R.drawable.chemistry_icon,"화학공학"))
+        add(Department(R.drawable.computer_icon,"컴퓨터공학"))
+        add(Department(R.drawable.doctor_icon,"의학"))
+        add(Department(R.drawable.electricity_icon,"전기전자"))
+        add(Department(R.drawable.english_icon,"영어영문"))
+        add(Department(R.drawable.management_icon,"경영학"))
+        add(Department(R.drawable.nurse_icon,"간호학"))
+        add(Department(R.drawable.psychology_icon,"심리학"))
     }
 
     fun getAddress() = ArrayList<Address>().apply {

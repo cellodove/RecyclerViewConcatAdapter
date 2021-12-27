@@ -18,15 +18,17 @@
             android:orientation="vertical">
             <ImageView
                 android:id="@+id/departImage"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:src="@drawable/ic_launcher_background"/>
             <TextView
                 android:id="@+id/departName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="00학과"/>
+                android:text="00학과"
+                android:textSize="15dp"
+                android:textColor="@color/black"/>
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
