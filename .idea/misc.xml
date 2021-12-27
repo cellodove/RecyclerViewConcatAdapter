@@ -4,7 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/MustFinishProject/RecyclerViewConcatAdapter/app/src/main/res/layout/activity_main.xml" value="0.2234375" />
+        <entry key="..\:/MustFinishProject/RecyclerViewConcatAdapter/app/src/main/res/layout/address_grid_item.xml" value="0.22083333333333333" />
         <entry key="..\:/MustFinishProject/RecyclerViewConcatAdapter/app/src/main/res/layout/address_item.xml" value="0.264" />
+        <entry key="..\:/MustFinishProject/RecyclerViewConcatAdapter/app/src/main/res/layout/depart_linear_item.xml" value="0.22083333333333333" />
         <entry key="..\:/MustFinishProject/RecyclerViewConcatAdapter/app/src/main/res/layout/department_item.xml" value="0.23802083333333332" />
         <entry key="..\:/MustFinishProject/RecyclerViewConcatAdapter/app/src/main/res/layout/user_item.xml" value="0.23802083333333332" />
       </map>

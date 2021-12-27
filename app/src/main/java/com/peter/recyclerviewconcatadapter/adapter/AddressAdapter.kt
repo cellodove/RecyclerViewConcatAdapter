@@ -14,7 +14,7 @@ class AddressAdapter(private val clickItem: (Address) -> Unit ):ListAdapter<Addr
         val binding = AddressItemBinding.inflate(LayoutInflater.from(parent.context),parent,false)
         val addressViewHolder = AddressViewHolder(binding)
         binding.root.setOnClickListener {
-            clickItem(getItem(addressViewHolder.layoutPosition))
+            clickItem(getItem(addressViewHolder.bindingAdapterPosition))
         }
         return addressViewHolder
     }

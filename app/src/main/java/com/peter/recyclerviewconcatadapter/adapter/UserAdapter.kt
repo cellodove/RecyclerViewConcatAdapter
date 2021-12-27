@@ -14,7 +14,7 @@ class UserAdapter(private val itemClick: (User) -> Unit):ListAdapter<User,UserAd
         val userViewHolder = UserViewHolder(binding)
         binding.apply {
             root.setOnClickListener {
-                itemClick(getItem(userViewHolder.layoutPosition))
+                itemClick(getItem(userViewHolder.bindingAdapterPosition))
             }
         }
         return userViewHolder
