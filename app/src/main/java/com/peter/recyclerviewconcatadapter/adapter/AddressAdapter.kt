@@ -27,6 +27,7 @@ class AddressAdapter(private val clickItem: (Address) -> Unit ):ListAdapter<Addr
         fun bind(address : Address){
             binding.addressName.text = address.addressName
             binding.addressNumber.text = address.addressNumber
+            
         }
     }
     companion object{
