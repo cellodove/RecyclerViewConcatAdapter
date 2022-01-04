@@ -5,7 +5,6 @@ import com.peter.recyclerviewconcatadapter.model.Department
 import com.peter.recyclerviewconcatadapter.model.User
 
 object DataSource {
-
     fun getUser() = ArrayList<User>().apply {
         add(User("홍길동",R.drawable.grandfather1_icon,"50"))
         add(User("배추도사",R.drawable.grandfather2_icon,"70"))
@@ -43,7 +42,5 @@ object DataSource {
         add(Address("부총장실","010-7802-7912"))
         add(Address("이사장","010-9843-0135"))
         add(Address("방송부","010-5842-9145"))
-
-
     }
 }

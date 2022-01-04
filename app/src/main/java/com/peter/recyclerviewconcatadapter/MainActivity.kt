@@ -44,8 +44,6 @@ class MainActivity : AppCompatActivity() {
         addressAdapter.submitList(DataSource.getAddress())
         gridAddressAdapter = GridAddressAdapter(this,addressAdapter)
 
-
-
         val listOfAdapter = listOf(departLinearAdapter,userAdapter,gridAddressAdapter)
         adapter = ConcatAdapter(listOfAdapter)
         binding.recyclerView.adapter = adapter
