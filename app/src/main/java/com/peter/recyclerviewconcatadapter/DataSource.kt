@@ -33,14 +33,14 @@ object DataSource {
 
     fun getAddress() = ArrayList<Address>().apply {
         add(Address("학과사무실","010-1234-5678"))
-        add(Address("홍길동 연구실","010-4568-5678"))
-        add(Address("상황실","010-7514-4984"))
-        add(Address("방재실","010-1238-9432"))
-        add(Address("위원회","010-1646-5678"))
-        add(Address("대학원","010-7945-8471"))
-        add(Address("총장실","010-9354-1205"))
-        add(Address("부총장실","010-7802-7912"))
-        add(Address("이사장","010-9843-0135"))
-        add(Address("방송부","010-5842-9145"))
+        add(Address("홍길동 연구실","010-9101-2345"))
+        add(Address("상황실","010-6789-1012"))
+        add(Address("방재실","010-3456-7891"))
+        add(Address("위원회","010-0123-4567"))
+        add(Address("대학원","010-8910-1234"))
+        add(Address("총장실","010-5678-9101"))
+        add(Address("부총장실","010-2345-6789"))
+        add(Address("이사장","010-1012-3456"))
+        add(Address("방송부","010-7891-0123"))
     }
 }

@@ -9,7 +9,6 @@ import com.peter.recyclerviewconcatadapter.databinding.AddressItemBinding
 import com.peter.recyclerviewconcatadapter.model.Address
 
 class AddressAdapter(private val clickItem: (Address) -> Unit ):ListAdapter<Address, AddressAdapter.AddressViewHolder>(diffUtil){
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): AddressViewHolder {
         val binding = AddressItemBinding.inflate(LayoutInflater.from(parent.context),parent,false)
         val addressViewHolder = AddressViewHolder(binding)
@@ -30,6 +29,7 @@ class AddressAdapter(private val clickItem: (Address) -> Unit ):ListAdapter<Addr
             
         }
     }
+
     companion object{
         val diffUtil = object : DiffUtil.ItemCallback<Address>(){
             override fun areItemsTheSame(oldItem: Address, newItem: Address): Boolean {

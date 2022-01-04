@@ -23,6 +23,7 @@ class UserAdapter(private val itemClick: (User) -> Unit):ListAdapter<User,UserAd
     override fun onBindViewHolder(holder: UserViewHolder, position: Int) {
         holder.bind(getItem(position))
     }
+
     inner class UserViewHolder(private val binding: UserItemBinding) : RecyclerView.ViewHolder(binding.root){
         fun bind(user: User){
             binding.userName.text = user.name
@@ -30,6 +31,7 @@ class UserAdapter(private val itemClick: (User) -> Unit):ListAdapter<User,UserAd
             binding.userAge.text = user.age
         }
     }
+
     companion object{
         val diffUtil = object  : DiffUtil.ItemCallback<User>(){
             override fun areItemsTheSame(oldItem: User, newItem: User): Boolean {
